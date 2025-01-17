@@ -14,6 +14,11 @@ This repository provides reusable Terraform modules to provision scalable and hi
   - Deploys multiple EC2 instances with specified instance types, key pairs, and networking configurations.
   - Fully configurable with security groups, VPC, and subnets.
 
+
+##Disclaimer & License
+
+This `README.md` provides clear documentation for using your Terraform module, including inputs, outputs, and step-by-step deployment instructions. Let me know if you need further clarification or customization!
+This project is licensed under the MIT License. See LICENSE for details.
 ---
 
 ## Directory Structure
@@ -27,10 +32,4 @@ terraform-aws-infra/
 │   ├── s3-backend/  # S3 and DynamoDB setup for state management
 │   ├── ec2-cluster/ # EC2 cluster setup
 └── README.md        # Documentation
-
-##Disclaimer & License
-
-
-This `README.md` provides clear documentation for using your Terraform module, including inputs, outputs, and step-by-step deployment instructions. Let me know if you need further clarification or customization!
-This project is licensed under the MIT License. See LICENSE for details.
 
